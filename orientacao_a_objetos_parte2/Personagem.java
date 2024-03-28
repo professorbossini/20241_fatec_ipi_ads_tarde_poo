@@ -1,14 +1,16 @@
 public class Personagem{
   //variáveis de instância(objeto)
   String nome;
-  private int energia = 10;
-  private int fome = 0;
-  private int sono = 0;
+  private int energia;
+  private int fome;
+  private int sono;
 
   //esse é o construtor padrão
   //criado automaticamente pelo compilador, ainda que não seja escrito explicitamente
   Personagem(){
-
+    energia = 10;
+    fome = 0;
+    sono = 0;
   }
 
   //construtor personalizado
