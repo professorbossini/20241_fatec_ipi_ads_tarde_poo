@@ -18,4 +18,27 @@ public class VetorDinamico {
     cap = aux == 1 && capMinima > 3 ? capMinima : CAP_MINIMA;
   }
 
+  //terminar esse método
+  void adicionar(int elemento){
+    //se estiver cheio, redimensionar antes de adicionar
+    
+    elementos[qtde] = elemento;
+    qtde++;
+  }
+
+  //escrever esse aqui também
+  boolean estaCheio(){
+    //decidir se o vetor está cheio ou não olhando para cap e qtde
+  }
+
+  //escrever esse método
+  void redimensionar(){
+    //alocar um vetor com o dobro da capacidade atual chamado auxiliar
+
+    //copiar todo mundo do vetor elementos para o vetor auxiliar
+
+    //ajustar a capacidade para que ela tenha o valor novo, dobrado
+
+    //ajustar o ponteiro elementos para que ele aponte para o novo vetor
+  }
 }
