@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Personagem{
   //variáveis de instância(objeto)
   String nome;
@@ -71,5 +73,13 @@ public class Personagem{
       "%s: (e:%d, f:%d, s:%d)",
       nome, energia, fome, sono
     );
+  }
+
+  void cacarNaSelva(){
+    var gerador = new Random();
+    var algoRuimAconteceu = gerador.nextBoolean();
+    if(algoRuimAconteceu){
+      
+    }
   }
 }
