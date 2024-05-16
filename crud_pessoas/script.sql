@@ -1,4 +1,4 @@
--- Active: 1715278887504@@127.0.0.1@5432@20241_fatec_ipi_poo_pessoas@public
+-- Active: 1715685873518@@localhost@5432@20241_fatec_ipi_poo_pessoas
 CREATE TABLE tb_pessoa (
     cod_pessoa SERIAL PRIMARY KEY,
     nome VARCHAR(200) NOT NULL,
