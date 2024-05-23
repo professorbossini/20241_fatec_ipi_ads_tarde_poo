@@ -32,7 +32,7 @@ UPDATE tb_pessoa SET nome = CONCAT(nome, ' Gomes')
 WHERE cod_pessoa IN (2, 3);
 
 
-DELETE FROM tb_pessoa WHERE cod_pessoa = 2;]
+DELETE FROM tb_pessoa WHERE cod_pessoa = 2;
 
 
 -- encontrar um comando para 
